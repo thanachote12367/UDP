@@ -3,8 +3,6 @@ import socket
 address = ("127.0.0.1",4999)
 number = raw_input("enter your number: ")
 number = str(number)
-# byteData = str.encode(number)
-# data = "5"
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 while True:
